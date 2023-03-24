@@ -15,8 +15,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ## Links
 
 
-- Solution URL: [melviinn/order-summary-component](https://www.frontendmentor.io/solutions/nft-preview-card-component-htmlcss-eq76YpLPee)
-- Live Site URL: [order-summary-component.vercel.app](https://nft-preview-card-dun.vercel.app/)
+- Solution URL: [melviinn/order-summary-component](https://www.frontendmentor.io/solutions/order-summary-component-m7xQ_qQJch)
+- Live Site URL: [order-summary-component.vercel.app](https://order-summary-component-one-black.vercel.app/)
 
 ## My process
 
