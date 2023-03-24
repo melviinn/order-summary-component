@@ -72,7 +72,7 @@ p {
     right: 30px;
 }
 
-.card .card-body .choose-plan .price h4 {
+.card .card-body .choose-plan .price h2 {
     font-size: 13px;
     font-weight: 700;
     color: var(--dark-blue);
@@ -80,7 +80,7 @@ p {
 
 .card .card-body .choose-plan .price span {
     position: relative;
-    bottom: 15px;
+    bottom: 10px;
     color: var(--desaturated-blue);
     font-size: 13px;
     font-weight: 500;
