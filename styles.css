@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-color: var(--pale-blue);
+    background-repeat: no-repeat;
+}
+
+p {
+    font-size: 14px;
+}
+
+.card {
+    width: 380px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.card .card-header .header-img {
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.card .card-body {
+    padding: 15px 40px 30px 40px;
+    text-align: center;
+}
+
+.card .card-body h1 {
+    color: var(--dark-blue);
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.card .card-body p {
+    color: var(--desaturated-blue);
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.card .card-body .choose-plan {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: hsl(224, 23%, 55%, 0.1);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.card .card-body .choose-plan .price {
+    position: relative;
+    right: 30px;
+}
+
+.card .card-body .choose-plan .price h4 {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--dark-blue);
+}
+
+.card .card-body .choose-plan .price span {
+    position: relative;
+    bottom: 15px;
+    color: var(--desaturated-blue);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.card .card-body .choose-plan a {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--bright-blue);
+    transition: .3s ease;
+}
+
+.card .card-body .choose-plan a:hover {
+    color: hsl(245, 75%, 52%, 0.7);
+    text-decoration: none;
+}
+
+.card .card-body button {
+    width: 100%;
+    background-color: var(--bright-blue);
+    color: var(--very-pale-blue);
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    padding: 12px 0px 12px 0px;
+    margin-bottom: 23px;
+    transition: .3s ease;
+}
+
+.card .card-body button:hover {
+    background-color: hsl(245, 75%, 52%, 0.7);
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.card .card-body .cancel {
+    color: var(--desaturated-blue);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    transition: .3s ease;
+}
+
+.card .card-body .cancel:hover {
+    color: var(--dark-blue);
+}
